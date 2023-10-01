@@ -67,4 +67,17 @@ M.telescope = {
     },
 }
 
+M.nvterm = {
+    terminals = {
+        type_opts = {
+            float = {
+                row = 0.0,
+                col = 0.0,
+                width = 1.0,
+                height = 0.9,
+            }
+        }
+    }
+}
+
 return M
