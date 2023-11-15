@@ -28,9 +28,9 @@ M.mason = {
     -- "stylua",
     --
     -- -- web dev stuff
-    -- "css-lsp",
-    -- "html-lsp",
-    -- "typescript-language-server",
+    "css-lsp",
+    "html-lsp",
+    "typescript-language-server",
     -- "deno",
     -- "prettier",
     --
@@ -42,6 +42,7 @@ M.mason = {
     "texlab",
     "lua-language-server",
     "ltex-ls",
+    "python-lsp-server",
   },
 }
 
