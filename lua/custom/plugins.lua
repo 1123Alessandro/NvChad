@@ -60,6 +60,11 @@ local plugins = {
     --     "andweeb/presence.nvim",
     --     lazy = false,
     -- },
+    {
+        "ggandor/lightspeed.nvim";
+        lazy = false;
+        opts = overrides.lightspeed;
+    },
 
   -- To make a plugin not be loaded
   -- {

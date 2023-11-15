@@ -81,4 +81,10 @@ M.nvterm = {
     }
 }
 
+M.lightspeed = {
+    -- jump_to_unique_chars = false,
+    -- safe_labels = {},
+    ignore_case = true,
+}
+
 return M
