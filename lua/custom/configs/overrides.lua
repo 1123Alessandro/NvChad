@@ -65,6 +65,7 @@ M.nvimtree = {
 M.telescope = {
     defaults = {
         path_display = { "truncate" },
+        initial_mode = "normal",
     },
 }
 
@@ -85,6 +86,12 @@ M.lightspeed = {
     -- jump_to_unique_chars = false,
     -- safe_labels = {},
     ignore_case = true,
+}
+
+M.nvim_tree = {
+  git = {
+    timeout = 1000,
+  },
 }
 
 return M
