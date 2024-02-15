@@ -66,6 +66,7 @@ M.telescope = {
     defaults = {
         path_display = { "truncate" },
         initial_mode = "normal",
+        file_ignore_patterns = { ".git\\", "node_modules\\" },
     },
 }
 
@@ -76,7 +77,7 @@ M.nvterm = {
                 row = 0.0,
                 col = 0.0,
                 width = 1.0,
-                height = 0.9,
+                height = 0.87,
             }
         }
     }
@@ -90,7 +91,7 @@ M.lightspeed = {
 
 M.nvim_tree = {
   git = {
-    timeout = 1000,
+    timeout = 5000,
   },
 }
 
